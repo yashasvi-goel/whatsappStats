@@ -50,5 +50,5 @@ def parse(rawChat):
 
 rawChat= open('','r')#path of chat
 extractedData=parse(rawChat)
-print extractedData[1968].author
+#print extractedData[1968].author
 print len(extractedData)
