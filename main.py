@@ -48,8 +48,9 @@ def parse(rawChat):
     recv=0 
     return coll 
 
-import sys
-rawChat= open(sys.argv[1],'r')#path of chat
+if __name__ == "__main__":
+    import sys
+    rawChat= open(sys.argv[1],'r')#path of chat
 extractedData=parse(rawChat)
 #print extractedData[1968].author
 print len(extractedData)
